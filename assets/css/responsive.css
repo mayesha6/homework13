@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1200px) {
+    .header-section{
+        width:100px;
+    }
+    .body-section{
+        width: calc(100% - 100px);
+    }
+    
+    .progress{
+        width:90%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .service-wrap, .project-wrap, .aboutContent{
+        grid-template-columns: 1fr;
+    }
+    .progress{
+        width:100%;
+    }
+}
